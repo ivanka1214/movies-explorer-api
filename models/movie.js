@@ -1,4 +1,4 @@
-const { urlRegex } = require('../utils/constant');
+const { urlRegex } = require('../utils/constants');
 const mongoose = require('mongoose');
 const movieSchema = new mongoose.Schema({
   country: {

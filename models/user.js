@@ -1,5 +1,5 @@
 const UnautorizedError = require('../errors/UnautorizedError');
-const { emailRegex } = require('../utils/constant');
+const { emailRegex } = require('../utils/constants');
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const userSchema = new mongoose.Schema({
