@@ -1,12 +1,11 @@
 {
   "name": "diplom-start",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000m\u0000o\u0000v\u0000i\u0000e\u0000s\u0000-\u0000e\u0000x\u0000p\u0000l\u0000o\u0000r\u0000e\u0000r\u0000-\u0000a\u0000p\u0000i\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1",
     "start": "node app.js",
-    "dev": "nodemon app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/ivanka1214/movies-explorer-api/issues"
   },
-  "homepage": "https://github.com/ivanka1214/movies-explorer-api#readme"
+  "homepage": "https://github.com/ivanka1214/movies-explorer-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "celebrate": "^15.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "http2": "^3.3.7",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.4"
+  }
 }
